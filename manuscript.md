@@ -7,6 +7,15 @@ bibliography: lib.bib
 
 <!--- A submission for LIBER journal
 https://www.liberquarterly.eu/about/submissions/ 
+
+Markdown citations:
+
+pandoc -s -S --bibliography biblio.bib --filter pandoc-citeproc CITATIONS -o example24a.html
+
+pandoc -s -S --bibliography biblio.json --filter pandoc-citeproc --csl chicago-fullnote-bibliography.csl CITATIONS -o example24b.html
+
+pandoc -s -S --bibliography biblio.yaml --filter pandoc-citeproc --csl ieee.csl CITATIONS -t man -o example24c.1
+
 ---->
 
 <!--- 
@@ -22,6 +31,10 @@ This case study focuses on my personal experiences while Text- and Data Mining, 
 # Copyright
 ## Copyright landscape
 ## Copyright exception
+
+# TDM
+## Format
+HTML PDF XML txt
 
 # Elsevier
 ## Block
