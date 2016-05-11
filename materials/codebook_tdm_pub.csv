@@ -1,0 +1,13 @@
+publisher,Publisher name
+url,URL to homepage of publisher
+crossref_tdm,Participant in CrossRef's TDM API
+tdm_policy,URL to the TDM policy
+terms_conditions,URL to terms and conditions of webpage
+whois,Email address of administrator as available from whois command
+open_access,"Whether it is an Open Access publisher (0 = no, 1 = yes)"
+literature_dump,"Whether publisher provides a literature dump (0 = no, 1 = yes)"
+literature_dump_unrestricted,"Whether the literature dump is freely available (i.e., no VPN, no login, no agreement; 0 = no, 1 = yes)"
+api,"Whether publisher provides a TDM API (0 = no, 1 = yes)"
+api_unrestricted,"Whether the TDM API is freely available (i.e., no VPN, no login, no agreement; 0 = no, 1 = yes)"
+terms_conditions_scrape,"Whether the T&C explicitly forbid scraping (0 = no, 1 = yes, NA = no T&C)"
+terms_conditions_spider,"Whether the T&C explicitly forbid spidering/crawling (0 = no, 1 = yes, NA = no T&C)"
