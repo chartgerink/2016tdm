@@ -1,2 +1,5 @@
 *.csv diff=daff-csv
 *.csv merge=daff-csv
+
+*.init diff=daff-init
+*.init merge=daff-init
