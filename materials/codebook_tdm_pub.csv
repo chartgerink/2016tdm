@@ -6,15 +6,16 @@ terms_conditions,URL to terms and conditions of webpage
 contact,Email address denoted at the contact page of the url
 whois,Email address of administrator as available from whois command
 open_access,"Whether it is an Open Access publisher (0 = no, 1 = yes)"
-copyright_law_country,Whether the T&C specifies under which country's law the usage falls
-download_research,Whether the T&C allows downloading articles for research
-terms_conditions_scrape,"Whether the T&C explicitly forbid scraping (0 = no, 1 = yes, NA = no T&C)"
+copyright_law_country,"Whether the T&C specifies under which country's law the usage falls (country acronym, + denotes whether it adds a modifier to include ""other countries"")"
+download_research,"Whether the T&C allows downloading articles for research (0 = no, 1 = yes)"
+terms_conditions_scrape,"Whether the T&C explicitly allows scraping (0 = no, 1 = yes, NA = no T&C)"
 nc_terms_conditions_scrape,"Whether the T&C explicitly allows non-commercial scraping (0 = no, 1 = yes, NA = no T&C)"
-terms_conditions_spider,"Whether the T&C explicitly forbid spidering/crawling (0 = no, 1 = yes, NA = no T&C)"
+terms_conditions_spider,"Whether the T&C explicitly allows spidering/crawling (0 = no, 1 = yes, NA = no T&C)"
 nc_terms_conditions_spider,"Whether the T&C explicitly allows non-commercial spidering/crawling (0 = no, 1 = yes, NA = no T&C)"
-tdm_policy,URL to tdm policy (if available
+tdm_policy,URL to tdm policy (if available)
 api,"Whether publisher provides a TDM API (0 = no, 1 = yes)"
-api_restricted,"Whether the TDM API is restricted (i.e., VPN, login, agreement; 0 = no, 1 = yes)"
+api_free,"Whether the TDM API is freely available (i.e., VPN, login, agreement; 0 = no, 1 = yes)"
 lit_dump,"Whether publisher provides a literature dump (0 = no, 1 = yes)"
-lit_dump_restricted,"Whether the literature dump is restricted (i.e., VPN needed, agreement; 0 = no, 1 = yes)"
+lit_dump_free,"Whether the literature dump is freely available (i.e., VPN needed, agreement; 0 = no, 1 = yes)"
 lit_dump_policy,URL to literature dump policy (if available)
+noteworthy_text,Free field to paste noteworthy pieces of the T&C in
