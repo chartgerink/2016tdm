@@ -9,6 +9,7 @@ A two-step approach was used in the coding. Step 1 included collection of resour
 Step 1 pertains to the variables `publisher`,
 `url`,
 `open_access`,
+`contact`,
 `whois`,
 `terms_conditions_url`,
 `crossref_tdm`,

@@ -3,6 +3,7 @@ url,URL to homepage of publisher
 crossref_tdm,Participant in CrossRef's TDM API
 tdm_policy,URL to the TDM policy
 terms_conditions,URL to terms and conditions of webpage
+contact,Email address denoted at the contact page of the url
 whois,Email address of administrator as available from whois command
 open_access,"Whether it is an Open Access publisher (0 = no, 1 = yes)"
 literature_dump,"Whether publisher provides a literature dump (0 = no, 1 = yes)"
