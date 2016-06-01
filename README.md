@@ -36,15 +36,17 @@ INCLUDE TEMPLATE EMAIL HERE
 2. Save page to pdf
 3. Open PDF
 4. Annotate parts containing information on scraping in yellow, use CTRL+F for keywords "scrap", "download", "automat", "bot", "spider" to identify key sections.
-5. Code `terms_conditions_scrape`, 0 = no explicit statement forbidding scraping, 1 = explicit statement forbidding scraping, NA = states nothing about scraping.
-6. Code `nc_terms_conditions_scrape`, 0 = forbids scraping for non-commercial/does not make a distinction, 1 = allows scraping specifically for non-commercial activities, NA = nothing coded for `terms_condition_scrape` so nothing possible.
-7. Code `terms_conditions_spider` similarly to #5.
-8. Code `nc_terms_conditions_spider` similar to #6.
-9. Use the site's websearch to look for a tdm policy with the term "tdm policy", "mining", "tdm". Only inspect first page for relevant hits pertaining to a tdm policy. If found, copy the url to the policy into the spreadsheet under variable `tdm_policy`.
-10. Code `api` availability, 0 = no, 1 = yes, NA = is no info found (note that if available in `crossref_tdm`, this automatically converts to a yes)
-11. Code `api_restricted`, where 0 = no restrictions (i.e., one does not need to make an account or accept conditions to use API), 1 = includes restrictions, NA = if no API available. Note that if there is an agreement in CrossRef, this is seen as restricted.
-12. Use the websearch for "corpus", "dump", "subset" (based on how PMC calls their dump), "full-text", "fulltext"
-13. Add whether the downloads are restricted in `lit_dump_restricted`, 0 = no restriction, 1 = restricted (e.g., login), NA = no dump available
-14. If there is a policy available on the download page, add the link to the policy in `lit_dump_policy`.
+5. Code whether a specific country's copyright applies in the terms and conditions `copyright_law_country
+6. Code whether the user is allowed, based on the T&C, to download articles for research purposes
+7. Code `terms_conditions_scrape`, 0 = no explicit statement forbidding scraping, 1 = explicit statement forbidding scraping, NA = states nothing about scraping.
+8. Code `nc_terms_conditions_scrape`, 0 = forbids scraping for non-commercial/does not make a distinction, 1 = allows scraping specifically for non-commercial activities, NA = nothing coded for `terms_condition_scrape` so nothing possible.
+9. Code `terms_conditions_spider` similarly to #5.
+10. Code `nc_terms_conditions_spider` similar to #6.
+11. Use the site's websearch to look for a tdm policy with the term "tdm policy", "mining", "tdm". Only inspect first page for relevant hits pertaining to a tdm policy. If found, copy the url to the policy into the spreadsheet under variable `tdm_policy`.
+12. Code `api` availability, 0 = no, 1 = yes, NA = is no info found (note that if available in `crossref_tdm`, this automatically converts to a yes)
+13. Code `api_restricted`, where 0 = no restrictions (i.e., one does not need to make an account or accept conditions to use API), 1 = includes restrictions, NA = if no API available. Note that if there is an agreement in CrossRef, this is seen as restricted.
+14. Use the websearch for "corpus", "dump", "subset" (based on how PMC calls their dump), "full-text", "fulltext"
+15. Add whether the downloads are restricted in `lit_dump_restricted`, 0 = no restriction, 1 = restricted (e.g., login), NA = no dump available
+16. If there is a policy available on the download page, add the link to the policy in `lit_dump_policy`.
 
 All of the links included in the spreadsheet will be archived at the Wayback Archive for persistence. A duplicate spreadsheet will be included that provides these links in case they are required in the future.
