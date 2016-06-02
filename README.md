@@ -37,7 +37,7 @@ INCLUDE TEMPLATE EMAIL HERE
 3. Open hypothes.is
 4. Annotate parts containing information on scraping in yellow, use CTRL+F for keywords "scrap", "download", "automat", "bot", "spider" to identify key sections.
 5. Code whether a specific country's copyright applies in the terms and conditions `copyright_law_country` (country acronym, + denotes whether it adds a modifier to include "other countries")
-6. Code whether the user is allowed, based on the T&C, to download articles for research purposes
+6. Code whether the user is allowed, based on the T&C, to download articles for research purposes. If scraping is not forbidden, it is seen as allowed.
 7. Code `terms_conditions_scrape`, 0 = explicit statement forbidding scraping, 1 = no explicit statement forbidding scraping, NA = states nothing about scraping.
 8. Code `nc_terms_conditions_scrape`, 0 = forbids scraping for non-commercial/does not make a distinction, 1 = allows scraping specifically for non-commercial activities, NA = nothing coded for `terms_condition_scrape` so nothing possible.
 9. Code `terms_conditions_spider` similarly to #5.
