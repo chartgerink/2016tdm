@@ -22,9 +22,24 @@ pandoc -s -S --bibliography biblio.yaml --filter pandoc-citeproc --csl ieee.csl 
 Case studies present in depth studies of particular situations in an illustrative way, without restricting themselves to a single research procedure. A case study records the practices of the profession by narrowing down a very broad field of research into one, real-world topic and providing factual evidence and revealing facts or information otherwise ignored or unknown. While critical judgment and organization of the material are required, generally, writers should stick to the facts by providing a fairly modest and honest record of the events. With a short introduction, a case study should provide an explanation, why is the given case particularly interesting. The case study has to contain the most important information obtained about it, followed by a plan for analysing the problem at hand and the options to solve it. 
 --->
 
-The scientific literature is the greatest source of knowledge mankind has ever produced, but it can be built upon by mining information from it. With the fourth industrial revolution upon us, the information revolution, the scientific literatures aggregate information is ripe for the pickings. Information can be mined from text- and data in previous research articles in order to create new knowledge. This methodology, Text- and Data Mining (TDM), contains many fruitful possibilities, including an automated hypothesis finder [@malhotra2013], semi-automated meta-analysis procedures [], statistical error detection [], and in my case, detecting potential data fabrication in the sciences. This list is hardly extensive, and the potential to innovate is great. 
+The scientific literature is the largest source of knowledge; additionally it harnesses information we have not even discovered within it. Researchers are actively working on extracting these discoveries by conducting meta-analyses, systematic reviews, narrative reviews, archival studies, and more. By extracting that same information from it using (semi-)automated tools, that entire process can be made more efficient and reliable. This (semi-)automation, Text- and Data Mining (TDM; or Content Mining) can help generate new insights.
+
+Moreover, the scientific literature is becoming so large, researchers cannot be expected to manually digest all these findings. For example, Figure `r fig <- 1;fig` depicts the largest publishers available in the CrossRef database, with Elsevier making up approximately 15 million pieces of scientific output. Even if just .1\% of all outputs are relevant to any specific researchers that amounts to 15,000 papers --- much more than any human can be expected to fully parse for a single project.
+
+![spreadsheet](../figures/Pasted image at 2016_05_02 17_18.png)
+
+**Figure `r fig`.** Publications per publisher available in CrossRef. *Image credit: Richard Smith-Unna.*
+
+TDM was not feasible before the digital revolution in the 1990s and has become more feasible in the decades following it. 
+
+Despite that TDM has become technically feasible, its practical feasibility is hampered by copyright legislation in most countries.
+
+As we see in Figure `r fig`, the five largest publishers include the majority of all scientific output. 
+
+This methodology, Text- and Data Mining (TDM), contains many fruitful possibilities, including an automated hypothesis finder [@malhotra2013], semi-automated meta-analysis procedures [], statistical error detection [], and in my case, detecting potential data fabrication in the sciences. This list is hardly extensive, and the potential to innovate is great. 
 
 However, researchers wanting to apply these methods face tremendous problems because in order to analyse these articles, they first need to be downloaded. 
+
 
 Downloading does not need to be difficult, considering that an automated download for all scientific literature could ideally require only one line of code. However, the infrastructure to do this has to be built, and the downloads have to be facilitated by the publishers. For example, the publisher PeerJ encourages TDM based on its corpus and places no restrictions on the downloading of articles. As a result, one needs only the following code to download the entire corpus
 
@@ -35,8 +50,16 @@ Downloading does not need to be difficult, considering that an automated downloa
 
 https://hypothes.is/stream?q=user:chjh
 
-![spreadsheet](../figures/Pasted image at 2016_05_02 17_18.png)
+https://www.copyright.com/business/xmlformining-2/
 
-**Figure `r fig <- 1;fig`.** Publications per publisher available in CrossRef. *Image credit: Richard Smith-Unna.*
+http://refinder.org/
+
+https://github.com/ropensci/rcrossref
+
+https://github.com/ropensci/fulltext
+
+You do research, find an interesting issue from a journal; publisher forbids you to download entire issue. Yes, this happens. 
+
+
 
 # 
