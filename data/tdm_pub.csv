@@ -20,7 +20,7 @@ date_checked,publisher,url,open_access,contact,whois,terms_conditions_url,crossr
 20160602,PeerJ,https://peerj.com/,1,support@peerj.com,BUSINESS@PEERJ.COM,https://peerj.com/about/terms/,0,NA,US,1,1,1,1,1,NA,NA,NA,NA,NA,NA,peerj.com/articles/updates.csv
 20160602,Pensoft Publishers,http://www.pensoft.net/journals/,1,info@pensoft.net,info@pensoft.net,http://pensoft.net/terms,1,0,NA,1,1,1,1,1,NA,1,,NA,NA,NA,
 20160602,PLOS,https://www.plos.org/,1,plos@plos.org,admin@plos.org,https://www.plos.org/terms-of-use,0,NA,US,1,1,1,1,1,http://api.plos.org/,1,1,NA,NA,NA,Note that the corpus dump is included in PMC
-,Royal Society,https://royalsociety.org/journals/,0,webmanager@royalsociety.org,ithelpdesk@royalsociety.org,https://royalsociety.org/about-us/terms-conditions-policies/,0,NA,,,,,,,,,,,,,
+20160602,Royal Society,https://royalsociety.org/journals/,0,webmanager@royalsociety.org,ithelpdesk@royalsociety.org,https://royalsociety.org/about-us/terms-conditions-policies/,0,NA,UK,1,1,1,1,1,https://royalsociety.org/about-us/terms-conditions-policies/publishing-terms-conditions/academic-single-site/,0,0,NA,NA,NA,
 ,SAGE,http://online.sagepub.com/,0,http://online.sagepub.com/feedback,sageadmin@sagepub.com,http://online.sagepub.com/site/policies/SJTermsofUSE.xhtml,1,0,,,,,,,,1,,,,,
 ,SciELO,http://scielo.org/,0,http://scielo.org/php/contact.php?lang=en,fabio.batalha@scielo.org,NA,0,NA,,,,,,,,,,,,,
 ,Springer,https://www.springer.com/,0,https://www.springer.com/gp/help/contact/your-contact-at-springer/31314,hostmaster@springer.com,https://www.springer.com/generic/terms?SGWID=5-40112-0-0-0,0,NA,,,,,,,,,,,,,
