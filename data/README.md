@@ -14,6 +14,8 @@ The data folder is the folder that is destined to contain all the data. Some goo
 
 2. If included in Crossref, then no additional T&C are needed, hence `api_free` coded as 1.
 
+3. Will revisit crossref availability by checking myself.
+
 ## Brill
 
 1. No terms and conditions, disclaimer, use policy!
@@ -26,4 +28,10 @@ The data folder is the folder that is destined to contain all the data. Some goo
 
 ## Hindawi
 
-1. No TDM policy, but in Crossref. Assuming it is full-text as well, considering their corpus dump is freely available.
+1. No TDM policy, but in Crossref. Assuming it is full-text as well, considering their corpus dump is freely available
+2. Simply no T&C, so nothing to prohibit I figure
+3. Will revisit 1 for crossref.
+
+## IEEE
+
+1. 
