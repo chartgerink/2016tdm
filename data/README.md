@@ -32,6 +32,6 @@ The data folder is the folder that is destined to contain all the data. Some goo
 2. Simply no T&C, so nothing to prohibit I figure
 3. Will revisit 1 for crossref.
 
-## IEEE
+## Open Library of Humanities
 
-1. 
+1. No T&C, but everything is licensed CC-BY so I figure this allows downloading, scraping, spidering.
