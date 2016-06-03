@@ -1,0 +1,17 @@
+variable,description
+publisher,Publisher
+open_access,"Open Access pub? (0 = no, 1 = yes; corresponds to tdm_pub.csv)"
+test_doi,The doi link that was tested
+command_terminal_no_token,The terminal command without the crossref API token
+crossref_link_no_token,"Does the crossref query return a link when no token is used? (0 = no, 1 = yes)"
+download_no_token,"Does the crossref query return a link that can be downloaded (iff legitimate access) when no token is used? (0 = no, 1 = yes)"
+command_terminal_with_token,The terminal command with the crossref API token (API token in the file is already revoked)
+crossref_link_with_token,"Does the crossref query return a link when a token is used? (0 = no, 1 = yes)"
+download_with_token,"Does the crossref query return a link that can be downloaded (iff legitimate access) when a token is used? (0 = no, 1 = yes)"
+collection_property,Does the crossref query return a collection property?
+resource_redirect,Where does the link redirect to?
+download_type,What type of file is available from the redirect? (only directly taken into account)
+api_works,The link to the crossref api (alternative route)
+url_type,What kind of url does the alternative route give?
+notes,Notes during the process of checking
+api_free,"Final coding whether the Crossref API yields a non-restrictive way to download papers for TDM, iff legitimate access has been obtained (this goes into tdm_pub.csv)"
