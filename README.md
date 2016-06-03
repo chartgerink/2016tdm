@@ -1,6 +1,6 @@
 # Text- and Data Mining (TDM) case study
 
-The CrossRef API participants are retrieved from [here](http://www.crossref.org/tdm/participants.html).
+The CrossRef API participants are retrieved from [here](http://www.crossref.org/tdm/participants.html) and [here](http://tdmsupport.crossref.org/). Springer and TaylorFrancis are only represented in the second link, which is odd.
 
 ## Information retrieval
 
