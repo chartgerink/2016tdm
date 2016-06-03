@@ -1,5 +1,5 @@
 ---
-title: "TDM"
+title: "The mining landscape: A researcher's perspective"
 author: "Chris HJ Hartgerink"
 date: '`r format(Sys.time(), "%d %B, %Y")`'
 output: pdf_document
@@ -57,6 +57,21 @@ http://refinder.org/
 https://github.com/ropensci/rcrossref
 
 https://github.com/ropensci/fulltext
+
+https://svpow.com/2012/01/13/the-obscene-profits-of-commercial-scholarly-publishers/
+
+http://libguides.usc.edu/textmining/databases
+
+http://tdmsupport.crossref.org/researchers/
+
+https://github.com/CrossRef/rest-api-doc/blob/master/rest_api.md
+
+http://tdmsupport.crossref.org/
+
+http://www.ubiquitypress.com/site/merch/
+
+https://apps.crossref.org/home/
+
 
 You do research, find an interesting issue from a journal; publisher forbids you to download entire issue. Yes, this happens. 
 
